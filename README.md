@@ -12,6 +12,14 @@ yarn install
 react-native run-ios
 ```
 
+# Screenshots
+
+![](https://github.com/GetStream/train-heroic-rn-chat-example/blob/master/screenshots/Screen%20Shot%202019-09-13%20at%203.32.50%20PM.png)
+
+![](https://github.com/GetStream/train-heroic-rn-chat-example/blob/master/screenshots/Screen%20Shot%202019-09-13%20at%203.34.54%20PM.png)
+
+![](https://github.com/GetStream/train-heroic-rn-chat-example/blob/master/screenshots/Screen%20Shot%202019-09-13%20at%203.35.20%20PM.png)
+
 # Structure
 
 Our regular message component design is a little different than give in requirements. So it requires some UI tweaking.
