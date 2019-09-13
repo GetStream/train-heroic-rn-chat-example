@@ -4,14 +4,6 @@ import {Text, StyleSheet, TouchableOpacity, View} from 'react-native';
 import {ReactionPickerWrapper} from 'stream-chat-react-native';
 import {ReactionListLight} from './ReactionListLight';
 
-/**
- *
- * Message UI component
- *
- * @example ../docs/MessageSimple.md
- * @extends Component
- */
-
 export class MessageFooter extends React.PureComponent {
   static propTypes = {};
 

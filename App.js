@@ -9,16 +9,12 @@ import {
   ChannelList,
   Thread,
   ChannelPreviewMessenger,
-  MessageSimple,
 } from 'stream-chat-react-native';
 
 import {createAppContainer, createStackNavigator} from 'react-navigation';
-
-import {YellowBox} from 'react-native';
-console.ignoredYellowBox = ['Warning: Each', 'Warning: Failed'];
-
+import {emojiData} from './src/utils';
 import {MessageHeroic} from './src/components/MessageHeroic';
-YellowBox.ignoreWarnings(['Remote debugger']);
+
 const chatClient = new StreamChat('qk4nn7rpcn75');
 const userToken =
   'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiYmlsbG93aW5nLWZpcmVmbHktOCJ9.CQTVyJ6INIM8u28BxkneY2gdYpamjLzSVUOTZKzfQlg';
@@ -34,29 +30,6 @@ chatClient.setUser(
 );
 
 const theme = {};
-
-const emojiData = [
-  {
-    id: 'love',
-    icon: '❤️️',
-  },
-  {
-    id: 'fist',
-    icon: '👊🏻',
-  },
-  {
-    id: 'trophy',
-    icon: '🏆',
-  },
-  {
-    id: 'bag',
-    icon: '👜',
-  },
-  {
-    id: 'celebrate',
-    icon: ' 🎉',
-  },
-];
 
 const filters = {type: 'messaging'};
 const sort = {last_message_at: -1};
